@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – MediTime</title>
+<meta name="description" content="Privacy Policy for MediTime, the smart medication reminder and health tracker by ClearWave System.">
+<style>
+:root{--bg:#f6f8f9;--card:#fff;--ink:#1c2b33;--muted:#5b6b74;--line:#d9e2e6;--accent:#0f766e;--accent-bg:#e3f4f1}
+@media (prefers-color-scheme:dark){:root{--bg:#10191d;--card:#16232a;--ink:#e6eef1;--muted:#93a5ad;--line:#26373f;--accent:#4fd1c0;--accent-bg:#13302f}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.7 Georgia,"Times New Roman",serif}
+main{max-width:760px;margin:0 auto;padding:40px 20px 64px}
+h1,h2,h3,.meta,table,nav{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+h1{font-size:2rem;line-height:1.2;margin:0 0 8px}
+h2{font-size:1.25rem;margin:40px 0 8px;padding-top:24px;border-top:1px solid var(--line)}
+h3{font-size:1rem;margin:20px 0 4px}
+.meta{color:var(--muted);font-size:.9rem;margin:0 0 24px}
+.note{background:var(--accent-bg);border-left:4px solid var(--accent);padding:12px 16px;border-radius:4px;margin:20px 0}
+nav{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px 20px;font-size:.95rem}
+nav ol{margin:0;padding-left:20px;columns:2;column-gap:32px}
+a{color:var(--accent)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.9rem;min-width:520px}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:var(--card)}
+code{font-size:.85em;word-break:break-word}
+@media (max-width:560px){nav ol{columns:1}h1{font-size:1.6rem}}
+</style>
+</head>
+<body>
+<main>
+<h1>Privacy Policy for MediTime</h1>
+<p class="meta"><strong>Effective date:</strong> September 23, 2026 &nbsp;|&nbsp; <strong>Last updated:</strong> September 23, 2026<br>
+<strong>App:</strong> MediTime – Smart Medication Reminder &amp; Health Tracker<br>
+<strong>Developer:</strong> ClearWave System</p>
+
+<nav aria-label="Contents"><ol>
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#health">Sensitive health data</a></li>
+<li><a href="#collect">Information we collect</a></li>
+<li><a href="#use">How we use it</a></li>
+<li><a href="#permissions">App permissions</a></li>
+<li><a href="#third">Third-party services</a></li>
+<li><a href="#security">Data security</a></li>
+<li><a href="#rights">Deletion &amp; your rights</a></li>
+<li><a href="#children">Children &amp; family</a></li>
+<li><a href="#changes">Changes</a></li>
+<li><a href="#contact">Contact us</a></li>
+</ol></nav>
+
+<h2 id="intro">1. Introduction</h2>
+<p>ClearWave System ("we", "us", "our") operates the <strong>MediTime</strong> mobile application (the "App"). We respect your privacy and are committed to protecting the personal data and health information you share with us.</p>
+<p>This Privacy Policy explains how MediTime collects, uses, stores, discloses, and protects your information when you use our mobile application and related services. By using MediTime, you agree to the collection and use of information in accordance with this policy.</p>
+
+<h2 id="health">2. Sensitive health data protection notice</h2>
+<p>MediTime helps you with medication scheduling, adherence tracking, prescription record-keeping, and emergency medical profiles.</p>
+<div class="note"><strong>No sale of health data.</strong> We never sell, rent, lease, or monetize your health data, medication schedules, prescription images, or personal details to advertisers, data brokers, insurance companies, or other third parties.</div>
+<p><strong>Not medical advice.</strong> MediTime is a digital self-management tool. It is not a licensed medical provider and does not give medical advice, diagnosis, or treatment recommendations. Always consult a qualified healthcare professional about your health decisions.</p>
+
+<h2 id="collect">3. Information we collect</h2>
+<h3>A. Data you provide directly</h3>
+<ul>
+<li><strong>Account information:</strong> name, email address, and an optional profile picture when you create an account or sync across devices.</li>
+<li><strong>Medication and health records:</strong> medication names, dosage forms, schedule times, inventory levels, refill reminders, taken/missed adherence logs, medical notes, allergies, blood type, and emergency contact details.</li>
+<li><strong>Prescription and camera uploads:</strong> images of prescriptions and medicine packages, uploaded or captured with your camera, for Optical Character Recognition (OCR).</li>
+<li><strong>Dependent profiles:</strong> profile data for family members or dependents you manage under your account.</li>
+</ul>
+<h3>B. Data collected automatically</h3>
+<ul>
+<li><strong>Push notification identifiers:</strong> Firebase Cloud Messaging (FCM) tokens used to deliver medication alarms and reminders.</li>
+<li><strong>Device identifiers:</strong> an anonymous installation UUID and device hardware model, used to resolve multi-device sync conflicts.</li>
+<li><strong>Usage and diagnostic data:</strong> app performance statistics, crash reports (Firebase Crashlytics), and feature usage metrics (Firebase Analytics) to improve stability and user experience.</li>
+</ul>
+
+<h2 id="use">4. How we use your information</h2>
+<p>We process your data only to provide and improve MediTime:</p>
+<ol>
+<li><strong>Medication alarms and reminders:</strong> triggering local device alarms and push notifications for scheduled doses.</li>
+<li><strong>Multi-device synchronization:</strong> backing up and syncing your medication profiles across your devices using Supabase cloud infrastructure.</li>
+<li><strong>Prescription OCR:</strong> extracting medicine names and dosages from prescription photos using on-device ML Kit text recognition, with an optional Google Gemini AI fallback.</li>
+<li><strong>Emergency medical card:</strong> formatting critical information (allergies, emergency contacts, blood type) for optional quick display in a medical emergency.</li>
+<li><strong>App security and diagnostics:</strong> monitoring crash rates, fixing bugs, and securing system access.</li>
+</ol>
+
+<h2 id="permissions">5. App permissions and why we need them</h2>
+<div class="scroll"><table>
+<thead><tr><th>Permission</th><th>Android / iOS name</th><th>Purpose</th></tr></thead>
+<tbody>
+<tr><td>Camera</td><td><code>android.permission.CAMERA</code> / <code>NSCameraUsageDescription</code></td><td>Take photos of paper prescriptions and medicine labels for OCR extraction.</td></tr>
+<tr><td>Photos &amp; storage</td><td><code>READ_MEDIA_IMAGES</code> / <code>NSPhotoLibraryUsageDescription</code></td><td>Select prescription images from your gallery for upload and OCR processing.</td></tr>
+<tr><td>Notifications</td><td><code>POST_NOTIFICATIONS</code> / iOS notification authorization</td><td>Deliver timely medication reminders and alarm alerts.</td></tr>
+<tr><td>Exact alarms</td><td><code>SCHEDULE_EXACT_ALARM</code> / <code>USE_EXACT_ALARM</code></td><td>Trigger medication alerts at the exact scheduled minute on Android.</td></tr>
+<tr><td>Full-screen intent &amp; wake lock</td><td><code>USE_FULL_SCREEN_INTENT</code> / <code>WAKE_LOCK</code></td><td>Show loud full-screen medication alerts on Android when the screen is locked or idle.</td></tr>
+</tbody></table></div>
+
+<h2 id="third">6. Third-party services and SDKs</h2>
+<p>MediTime uses selected third-party providers to power specific features. They process data only on our behalf under confidentiality obligations.</p>
+<ol>
+<li><strong>Supabase Inc. (cloud database and authentication).</strong> Purpose: user authentication, encrypted cloud sync, and storage. Data shared: email address, encrypted medication records, profile details. <a href="https://supabase.com/privacy" rel="noopener">Privacy policy</a>.</li>
+<li><strong>Google LLC / Firebase (messaging, analytics, Crashlytics).</strong> Purpose: FCM push delivery, anonymous crash logs, stability monitoring. Data shared: FCM tokens, crash stack traces, device OS version. <a href="https://policies.google.com/privacy" rel="noopener">Privacy policy</a>.</li>
+<li><strong>Google Generative AI / Gemini API (prescription OCR fallback).</strong> Purpose: text extraction for handwritten or complex prescriptions when on-device OCR is inconclusive. Data shared: prescription image frames, sent over encrypted API calls. <a href="https://policies.google.com/privacy" rel="noopener">Privacy policy</a>.</li>
+<li><strong>Google ML Kit (on-device text recognition).</strong> Purpose: instant on-device prescription scanning. Data is processed locally on your hardware; camera frames are not sent to an external server by ML Kit.</li>
+</ol>
+
+<h2 id="security">7. Data security and storage</h2>
+<ul>
+<li><strong>Local storage:</strong> your medication data is stored on your device in a structured SQLite database.</li>
+<li><strong>Encryption in transit:</strong> all communication between MediTime and cloud servers (Supabase, Firebase, Gemini API) uses HTTPS/TLS encryption.</li>
+<li><strong>Encryption at rest:</strong> cloud database tables and storage buckets are protected by row-level security (RLS) and full disk encryption.</li>
+<li><strong>Biometric protection:</strong> the optional local app lock (fingerprint / Face ID) relies on your device's native hardware security.</li>
+</ul>
+
+<h2 id="rights">8. Account deletion and your data rights</h2>
+<p>You keep full control over your personal and health data.</p>
+<ul>
+<li><strong>In-app deletion:</strong> open <strong>Settings → Privacy &amp; Account → Delete Account</strong>.</li>
+<li><strong>Effect of deletion:</strong> once approved, all your cloud database records, prescription images, profiles, and authentication credentials are permanently erased. Local app data is removed when you uninstall the app or clear app storage.</li>
+</ul>
+<h3>Your legal rights (GDPR / CCPA / LGPD)</h3>
+<ul>
+<li><strong>Access and export:</strong> export your complete medication history in JSON or PDF format via Settings.</li>
+<li><strong>Rectification:</strong> correct any incorrect medical entries directly in the app.</li>
+<li><strong>Erasure:</strong> delete your account and records at any time.</li>
+</ul>
+
+<h2 id="children">9. Children's and family privacy</h2>
+<p>MediTime lets primary account holders create dependent profiles to manage medication schedules for family members or children in their care.</p>
+<ul>
+<li>MediTime does not knowingly collect personal data directly from children under 13 without verifiable parental or guardian consent.</li>
+<li>Primary account holders are responsible for, and have full oversight of, all dependent profile data created in the App.</li>
+</ul>
+
+<h2 id="changes">10. Changes to this policy</h2>
+<p>We may update this Privacy Policy to reflect app updates or legal requirements. We will notify you of material changes by posting the new policy in the app, updating the "Last updated" date, and sending an in-app notice or push notification.</p>
+
+<h2 id="contact">11. Contact us</h2>
+<p>For questions, concerns, or privacy requests:</p>
+<ul>
+<li><strong>Developer:</strong> ClearWave System</li>
+<li><strong>Email:</strong> <a href="mailto:clearwavesystems@gmail.com">clearwavesystems@gmail.com</a></li>
+<li><strong>Website:</strong> <a href="https://clearwavesystem.github.io/meditime_flutter/">clearwavesystem.github.io/meditime_flutter</a></li>
+</ul>
+</main>
+</body>
+</html>
